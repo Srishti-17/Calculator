@@ -1,0 +1,155 @@
+/* 
+.Add1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 23px;
+}
+.Add{
+display: flex;
+    justify-content: space-evenly;}
+
+
+label{font-weight: 500;
+    font-size: 25px;
+}
+
+input[type="number" ] {
+  width: 108px;
+    height: 26px;
+/*     
+    align-items: center;
+    justify-content: center; */
+    /* border-radius: 5px;
+    box-shadow: 0px 0px 26px 0px rgb(1 139 250 / 12%);
+} */
+
+
+/* .Keypad{
+  margin-bottom: 30px;
+ 
+  margin: 0 auto;
+    width: 48px;
+    height: 51px;
+  
+
+}
+
+.no{
+  width: 24%;
+    background-color: pink;
+    border: none;
+    border-radius: 4%;
+    width: 85px;
+    margin-top: 16px;
+}
+
+.Btn{
+  background-color: #c3e8f5;
+    align-items: center;
+    justify-content: center;
+    color: #22bbf3;
+    border-radius: 5px;
+    width: 32%;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+.count{
+  background-color: skyblue;
+    width: 95%;
+    padding: 28px;
+}
+
+.add2no{
+  border-radius: 58px;
+  margin-top: 23px; 
+    margin: 0 auto;
+    background-color: gray;
+    width: 40%;
+    padding: 39px;
+    margin-top: 5%;
+}
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cal_btn{
+  font-size: 26px;
+    margin-top: 20px;
+    width: 17%;
+    height: 43px;
+    border-radius: 17px;
+   
+    margin-left: 11px;
+  }
+
+
+.res{
+  width: 73px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 20px;} */ 
+    *{
+      font-family: sans-serif;
+    }
+    input,
+    button {
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    input {
+      display: block;
+      margin-bottom: 20px;
+    }
+    button {
+      border: 1px solid gray;
+      background: whitesmoke;
+      margin-right: 5px;
+    }
+    button:nth-last-child(2),
+    button:nth-last-child(1) {
+      background: tomato;
+      color: white;
+    }
